@@ -1,18 +1,20 @@
-# Hello World Web App
+# Hello World App
 
-This is a simple web application that displays a greeting message styled with Tailwind CSS.
+This is a simple Hello World application built using HTML, Tailwind CSS, and JavaScript. The app displays a greeting message and includes a button that triggers an alert when clicked.
 
 ## Features
-- Displays a message: "Hello from OpenAI!"
-- Styled using Tailwind CSS for a modern look
+- Displays a greeting message: "Hello World!"
+- Button that shows an alert with the message: "Hello again!"
 
 ## Technologies Used
 - HTML
 - Tailwind CSS (via CDN)
+- JavaScript
 
-## Getting Started
+## How to Run
 1. Clone the repository or download the files.
 2. Open `index.html` in your web browser.
+3. Click the button to see the alert.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.

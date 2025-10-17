@@ -7,6 +7,14 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="flex items-center justify-center h-screen bg-gray-100">
-    <h1 class="text-4xl font-bold text-blue-600">Hello from OpenAI!</h1>
+    <div class="text-center">
+        <h1 class="text-4xl font-bold mb-4">Hello World!</h1>
+        <button id="helloButton" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Click Me</button>
+    </div>
+    <script>
+        document.getElementById('helloButton').addEventListener('click', function() {
+            alert('Hello again!');
+        });
+    </script>
 </body>
 </html>
